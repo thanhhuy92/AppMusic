@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:padding="5dp"
+        android:text="Tên bài hát"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imgbtnPrev"
+        android:layout_width="78dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:src="@drawable/rewind64" />
+
+    <ImageButton
+        android:id="@+id/imgbtnPlay"
+        android:layout_width="78dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:src="@drawable/pause64" />
+
+    <ImageButton
+        android:id="@+id/imgbtnStop"
+        android:layout_width="78dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:src="@drawable/stop64" />
+
+    <ImageButton
+        android:id="@+id/imgbtnNext"
+        android:layout_width="78dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="307dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:src="@drawable/fast64" />
+
+    <SeekBar
+        android:id="@+id/skbarSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp" />
+
+    <TextView
+        android:id="@+id/txtTimeStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="123dp"
+        android:text="00:00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtTimeEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="355dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="123dp"
+        android:text="00:00"
+        android:textSize="20sp" />
+
+</RelativeLayout>
